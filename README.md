@@ -1,0 +1,1 @@
+# Okul-Guvenlik-Platformu
