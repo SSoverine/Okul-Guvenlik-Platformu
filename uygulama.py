@@ -32,9 +32,8 @@ def button2_click():
 def button3_click():
     subprocess.Popen(['python', 'Programlar/veriler.py'])
 
-# Buton resimlerini yükleme
 def load_image_with_transparency(image_path):
-    image = Image.open(image_path).convert("RGBA")  # RGBA formatına dönüştür
+    image = Image.open(image_path).convert("RGBA")
     return ImageTk.PhotoImage(image)
 
 button1_photo = load_image_with_transparency("Assets/bÇalıştır.png")
